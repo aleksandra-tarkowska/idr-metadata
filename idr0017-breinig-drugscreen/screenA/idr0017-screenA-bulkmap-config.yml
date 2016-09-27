@@ -30,29 +30,6 @@ columns:
   - name: Mutation Detailed
     include: yes
 
-  - name: Compound Treatment
-    include: yes
-  - name: Compound Name
-    include: yes
-  - name: Compound Name
-    clientname: Compound Name URL
-    clientvalue: https://www.ncbi.nlm.nih.gov/pccompound?term={{ value }}
-    include: yes
-  - name: Compound Secondary Name
-    include: yes
-  - name: Compound Class
-    include: yes
-  - name: Compound Enzyme
-    include: yes
-  - name: Compound Action
-    include: yes
-  - name: Compound Selectivity
-    include: yes
-  - name: Compound Description
-    include: yes
-  - name: Compound Selectivity Updated
-    include: yes
-
   - name: Control Type
     include: yes
   - name: Channels
