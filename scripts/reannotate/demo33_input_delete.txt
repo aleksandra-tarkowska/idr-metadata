@@ -1,0 +1,21 @@
+Screen:154 openmicroscopy.org/mapr/gene
+
+Screen:1202 openmicroscopy.org/mapr/organism
+
+Screen:1203 openmicroscopy.org/mapr/compound
+
+Screen:1651 openmicroscopy.org/mapr/gene
+Screen:1651 openmicroscopy.org/mapr/gene/supplementary
+Screen:1651 openmicroscopy.org/mapr/organism
+Screen:1651 openmicroscopy.org/mapr/phenotype
+Screen:1651 openmicroscopy.org/mapr/sirna
+Screen:1651 openmicroscopy.org/mapr/sirna/supplementary
+Screen:1651 openmicroscopy.org/omero/bulk_annotations
+
+Screen:1653 openmicroscopy.org/mapr/gene
+Screen:1653 openmicroscopy.org/mapr/gene/supplementary
+Screen:1653 openmicroscopy.org/mapr/organism
+Screen:1653 openmicroscopy.org/mapr/phenotype
+Screen:1653 openmicroscopy.org/mapr/sirna
+Screen:1653 openmicroscopy.org/mapr/sirna/supplementary
+Screen:1653 openmicroscopy.org/omero/bulk_annotations

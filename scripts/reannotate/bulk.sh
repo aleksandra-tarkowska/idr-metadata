@@ -20,13 +20,18 @@ IDR_METADATA='/tmp/idr-metadata'
 
 
 create_bulk () {
-    object=${1:-};
-    path=${2:-};
+    local object=${1:-};
+    local path=${2:-};
+    local log_file="log_create_bulk_$object"
+
     if [ -n "$object" ] &&[ -n "$path" ]; then
         # generate new table
         echo "generate new bulk annotation $object $path"
-        $OMERO_DIST/bin/omero metadata populate --file $path-annotation.csv $object >> "log_create_bulk_$object" 2>&1
+        echo "#########  BEGINING generate new bulk annotation $object $path  ################" >> $log_file
+        $OMERO_DIST/bin/omero metadata populate --file $path-annotation.csv $object >> $log_file 2>&1
+        echo "#########  END generate new bulk annotation $object $path  ################" >> $log_file
     fi
+
 }
 
 set +x
